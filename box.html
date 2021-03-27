@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			/*
+			block level element
+			*/
+			h1 {
+				border-width: 5px;
+				border-color:red;
+				border-style:solid;
+				/* display:inline;*/
+				/* display:none;*/
+			}
+			/*
+			inline element
+			*/
+			a {
+				border-width: 5px;
+				border-color:red;
+				border-style:solid;
+				/* display:block;*/
+			}
+			/*
+			다음과 같이 묶을 수도 있음.
+			h1, a {
+				border-width: 5px;
+				border-color:red;
+				border-style:solid;
+
+				위 문장을 요약해서 쓰면
+				border:5px solid red;
+				위와 같이 쓸 수 있다.
+				display:block;
+			}
+			*/
+			h2 {
+				margin:0px;
+				border:5px solid purple;
+				padding: 20px;
+				display:block;
+				width:100px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>CSS</h1> is <a href="css.html">CSS.</a><br>
+		<h2>BOX</h2><br>
+	</body>
+</html>
